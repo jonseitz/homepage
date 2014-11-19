@@ -1,0 +1,157 @@
+body{
+   margin: 0;
+   background-image: url("images/TreeBackgroundSmall.jpg");
+   background-size: contain;
+   background-attachment: fixed;
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   -webkit-background-size: contain;
+   -moz-background-size: contain;
+   -o-background-size: contain;
+}
+
+h1{
+   font-family: "futura-pt";
+   color: black;
+   text-align: center;
+   font-size: 3.5em;
+   font-weight: 500;
+   margin: 5px 0 5px 0;
+   font-variant: small-caps;
+}
+
+h1:first-of-type{
+   margin-top: 25px;
+}
+
+h2{
+   font-family: "futura-pt", sans-serif;
+   font-size: 2em;
+   line-height: 1em;
+   font-weight: 700;
+   margin-top: 40px;
+   border-bottom: 4px solid black;
+   padding-bottom: 10px;
+}
+
+h3{
+   font-family: "futura-pt", sans-serif;
+   text-transform: uppercase;
+   font-size: 1.5em;
+   margin-top: 0px;
+}
+
+p {
+   font-family: "futura-pt", sans-serif;
+   font-size: 1.5em;
+   text-align: left;
+   font-weight: 500;
+}
+
+p:last-of-type{
+   margin-bottom: 0;
+}
+
+header{
+   margin-left: 0;
+   max-width: 750px;
+   width: 90%;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-right: 10%;
+}
+
+article{
+   max-width: 750px;
+   width: 90%;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-left: 0;
+   margin-top: 100px;
+   margin-right: 10%;
+   padding-bottom: 50px;
+}
+
+strong{
+   font-weight: 700;
+}
+
+a {
+   color: black;
+   text-decoration: underline;
+}
+
+a:hover{
+   text-decoration: none;
+}
+
+
+#logo {
+   width: 65%;
+   margin-left: 17.5%;
+   margin-right: 17.5%;
+}
+
+.map {
+   width: 100%;
+}
+
+.credits {
+   font-size: 1em;
+   font-style: italic;
+   text-align: right;
+   margin-top: 50px;
+}
+
+div.party-block{
+   clear: both;
+}
+
+div.party-block p{
+   margin: 5px 0;
+}
+
+.party-left{
+   width: 45%;
+}
+
+.party-right {
+   float: right;
+   width: 45%;
+   }
+
+@media(max-width:1300px) {
+   .translucent {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: rgba(255, 255, 255, 0.50);
+   }
+}
+
+@media(max-width: 900px){
+   body{
+      background-image: url("images/TreeBackgroundSmall.jpg");
+      background-attachment: fixed;
+      background-position: center center;
+      background-size: contain;
+      margin: 0;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+   }
+
+   h1 {
+      font-size: 2.5em;
+   }
+}
+
+@media(max-width:550px){
+  .party-left, .party-right{
+   width: 100%;
+   float: none;
+   }
+   h3{
+      margin-top: 30px;
+      margin-bottom: 0px;
+}

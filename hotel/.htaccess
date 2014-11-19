@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^hotel\.cristineandjon\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hotel\.cristineandjon\.com$
+RewriteRule ^/?$ "http\:\/\/cwp\.marriott\.com\/mhtfa\/seitz2014\/" [R=301,L]
+
